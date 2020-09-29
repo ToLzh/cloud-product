@@ -16,6 +16,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -48,6 +49,13 @@ public class ProductServiceImpl implements ProductService {
     @Override
     @Transactional
     public void decreaseStock(List<CartDTOOutPut> cartDTOList) {
+        List<ProductInfo> productInfoList = decreaseStockProcess(cartDTOList);
+        //发送消息
+        rabbitTemplate.convertAndSend("product-productInfo", JSONObject.toJSONString(productInfoList) );
+    }
+
+    private List<ProductInfo> decreaseStockProcess(List<CartDTOOutPut> cartDTOList) {
+        List<ProductInfo> productInfoList = new ArrayList<>();
         for (CartDTOOutPut cartDTO : cartDTOList) {
             Optional<ProductInfo> productInfoOptiona = productDao.findById(cartDTO.getProductId());
 
@@ -65,8 +73,8 @@ public class ProductServiceImpl implements ProductService {
             productInfo.setProductStock(stock);
             productDao.save(productInfo);
 
-            //发送消息
-            rabbitTemplate.convertAndSend("product-productInfo", JSONObject.toJSONString(productInfo) );
+            productInfoList.add(productInfo);
         }
+        return productInfoList;
     }
 }

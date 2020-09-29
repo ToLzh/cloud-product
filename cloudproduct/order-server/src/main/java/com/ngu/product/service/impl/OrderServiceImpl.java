@@ -46,7 +46,13 @@ public class OrderServiceImpl implements OrderService {
 
         String orderId = KeyUtil.genUniqueKey();
 
-        // 2.商品查询
+        // 秒杀场景
+        // 1.从redis中获取商品信息
+        // 2. redis 减库存
+        // 3. 若出现异常， redis 回复库存
+        // 4 创建订单 写入数据库 ， 发消息队列 去减数据库库存
+
+       // 2.商品查询
         List<String> productIdList = orderDTO.getOrderDetailList().stream()
                 .map(OrderDetail::getProductId)
                 .collect(Collectors.toList());
