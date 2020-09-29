@@ -8,3 +8,10 @@ eureka:
 
 server:
   port: 8585
+
+zuul:
+  ignored-patterns:   # 禁止直接访问该接口,只允许服务调用
+    - /**/product/listForOrder
+    - /**/product/decreaseStock
+  sensitive-headers:  # 接收敏感信息 如 cookie
+
