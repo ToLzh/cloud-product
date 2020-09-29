@@ -2,6 +2,8 @@ package com.ngu.product.server;
 
 import com.ngu.product.domain.ProductInfo;
 import com.ngu.product.dto.CartDTO;
+import com.ngu.product.entities.CartDTOOutPut;
+import com.ngu.product.entities.ProductInfoOutPut;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -18,10 +20,10 @@ public interface ProductService {
      * @param productIdList
      * @return
      */
-    List<ProductInfo> findByProductIdIn(List<String> productIdList);
+    List<ProductInfoOutPut> findByProductIdIn(List<String> productIdList);
 
     /**
      * 删除库存 批量
      */
-    void decreaseStock(List<CartDTO> cartDTOList);
+    void decreaseStock(List<CartDTOOutPut> cartDTOList);
 }

@@ -1,7 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47e7d488-bcf5-41eb-974b-18910dfe037f" name="Default Changelist" comment="" />
+    <list default="true" id="47e7d488-bcf5-41eb-974b-18910dfe037f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/api-commons/src/main/java/com/ngu/product/entities/CartDTOOutPut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-commons/src/main/java/com/ngu/product/entities/ProductInfoOutPut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/message/ProductInfoRecevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/message/StreamClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/message/StreamReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-server/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-server/src/test/java/com/ngu/product/controller/MqTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/OrderServerMain8201.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/OrderServerMain8201.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/client/ProductClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-server/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-server/src/test/java/com/ngu/product/controller/OrderControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-server/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-server/target/classes/com/ngu/product/OrderServerMain8201.class" beforeDir="false" afterPath="$PROJECT_DIR$/order-server/target/classes/com/ngu/product/OrderServerMain8201.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-server/target/classes/com/ngu/product/client/ProductClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-server/target/classes/com/ngu/product/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/order-server/target/classes/com/ngu/product/controller/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-server/target/classes/com/ngu/product/service/impl/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/order-server/target/classes/com/ngu/product/service/impl/OrderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-server/target/test-classes/com/ngu/product/controller/OrderControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-client/src/main/java/com/ngu/product/ProductClientMain8111.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-client/src/main/java/com/ngu/product/controller/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-client/src/main/java/com/ngu/product/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-client/src/main/java/com/ngu/product/feignClient/ProductFeign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-client/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-server/src/main/java/com/ngu/product/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-server/src/main/java/com/ngu/product/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-server/src/main/java/com/ngu/product/server/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-server/src/main/java/com/ngu/product/server/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-server/src/main/java/com/ngu/product/server/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-server/src/main/java/com/ngu/product/server/impl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product-server/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-server/src/test/java/com/ngu/product/server/ProductServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-server/src/test/java/com/ngu/product/server/ProductServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-server/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-server/target/classes/com/ngu/product/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/product-server/target/classes/com/ngu/product/controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-server/target/classes/com/ngu/product/domain/ResultVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-server/target/classes/com/ngu/product/server/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/product-server/target/classes/com/ngu/product/server/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-server/target/classes/com/ngu/product/server/impl/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/product-server/target/classes/com/ngu/product/server/impl/ProductServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-server/target/classes/com/ngu/product/utils/ResultVOUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-server/target/test-classes/com/ngu/product/server/ProductServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/product-server/target/test-classes/com/ngu/product/server/ProductServiceTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../../springcloud2020/cloud2020/cloud-gateway-gateway9527/target/" />
@@ -44,6 +86,7 @@
     <ignored path="$PROJECT_DIR$/api-commons/target/" />
     <ignored path="$PROJECT_DIR$/product-client/target/" />
     <ignored path="$PROJECT_DIR$/config-server/target/" />
+    <ignored path="$PROJECT_DIR$/../../rabbitmq-springboot/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,34 +95,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-server/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config-server/src/main/java/com/ngu/product/ConfigMain.java">
+        <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/message/ProductInfoRecevice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            <state relative-caret-position="209">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#335#336#0" expanded="true" />
-                <element signature="e#384#385#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -89,28 +112,26 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>productInfoOptiona</find>
+      <find>@FeignClient</find>
+      <find>product-service</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/product-server/src/main/java/com/ngu/product/domain/ProductVO.java" />
-        <option value="$PROJECT_DIR$/product-server/src/main/java/com/ngu/product/domain/ProductInfoVo.java" />
-        <option value="$PROJECT_DIR$/product-server/src/main/java/com/ngu/product/server/impl/CategoryServiceImpl.java" />
-        <option value="$PROJECT_DIR$/product-server/src/main/java/com/ngu/product/utils/ResultVOUtil.java" />
-        <option value="$PROJECT_DIR$/product-server/src/main/java/com/ngu/product/domain/ResultVO.java" />
-        <option value="$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/domain/OrderMaster.java" />
-        <option value="$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/domain/OrderDetail.java" />
-        <option value="$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/enums/OrderStatus.java" />
-        <option value="$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/enums/PayStatusEnum.java" />
-        <option value="$PROJECT_DIR$/common-api/src/main/java/com/ngu/product/entities/OrderDetail.java" />
-        <option value="$PROJECT_DIR$/common-api/src/main/java/com/ngu/product/entities/OrderMaster.java" />
-        <option value="$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/dao/OrderMasterDao.java" />
         <option value="$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/dao/OrderDetailDao.java" />
         <option value="$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/service/OrderService.java" />
         <option value="$PROJECT_DIR$/common-api/src/main/java/com/ngu/product/utils/KeyUtil.java" />
@@ -123,33 +144,45 @@
         <option value="$PROJECT_DIR$/api-commons/src/main/java/com/ngu/product/VO/ResultVO.java" />
         <option value="$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/converter/OrderFormToOrderDTO.java" />
         <option value="$PROJECT_DIR$/../../springcloud2020/cloud2020/cloud-consumer-order80/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/product-client/pom.xml" />
         <option value="$PROJECT_DIR$/product-client/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/product-server/src/main/java/com/ngu/product/dao/ProductDao.java" />
         <option value="$PROJECT_DIR$/product-client/src/main/java/com/ngu/product/controller/ProductController.java" />
         <option value="$PROJECT_DIR$/product-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/order-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/order-server/pom.xml" />
         <option value="$PROJECT_DIR$/product-server/src/test/java/com/ngu/product/server/impl/CategoryServiceImplTest.java" />
         <option value="$PROJECT_DIR$/product-server/src/test/java/com/ngu/product/server/impl/ProductServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/product-server/src/main/java/com/ngu/product/server/ProductService.java" />
         <option value="$PROJECT_DIR$/product-server/src/main/java/com/ngu/product/exception/ProductException.java" />
         <option value="$PROJECT_DIR$/product-server/src/main/java/com/ngu/product/enums/ProductExceptionEnum.java" />
-        <option value="$PROJECT_DIR$/product-server/src/test/java/com/ngu/product/server/ProductServiceTest.java" />
         <option value="$PROJECT_DIR$/product-server/src/main/java/com/ngu/product/dto/CartDTO.java" />
         <option value="$PROJECT_DIR$/product-client/src/main/java/com/ngu/product/ProductClientMain8111.java" />
         <option value="$PROJECT_DIR$/order-server/src/test/java/com/ngu/product/controller/OrderControllerTest.java" />
-        <option value="$PROJECT_DIR$/product-server/src/main/java/com/ngu/product/server/impl/ProductServiceImpl.java" />
-        <option value="$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/OrderServerMain8201.java" />
-        <option value="$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/controller/OrderController.java" />
         <option value="$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/client/ProductClient.java" />
-        <option value="$PROJECT_DIR$/product-client/src/main/java/com/ngu/product/service/ProductService.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/service/impl/OrderServiceImpl.java" />
-        <option value="$PROJECT_DIR$/product-server/src/main/java/com/ngu/product/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/config-server/src/main/java/com/ngu/product/ConfigMain.java" />
+        <option value="$PROJECT_DIR$/order-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
         <option value="$PROJECT_DIR$/config-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/config-server/src/main/java/com/ngu/product/ConfigMain.java" />
+        <option value="$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/message/MqReceiver.java" />
+        <option value="$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/message/StreamClient.java" />
+        <option value="$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/message/StreamReceiver.java" />
+        <option value="$PROJECT_DIR$/order-server/src/test/java/com/ngu/product/controller/MqTest.java" />
+        <option value="$PROJECT_DIR$/product-server/pom.xml" />
+        <option value="$PROJECT_DIR$/api-commons/src/main/java/com/ngu/product/entities/ProductInfoOutPut.java" />
+        <option value="$PROJECT_DIR$/product-server/src/main/java/com/ngu/product/server/ProductService.java" />
+        <option value="$PROJECT_DIR$/product-server/src/main/java/com/ngu/product/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/order-server/pom.xml" />
+        <option value="$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/service/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/api-commons/src/main/java/com/ngu/product/entities/CartDTOOutPut.java" />
+        <option value="$PROJECT_DIR$/product-server/src/test/java/com/ngu/product/server/ProductServiceTest.java" />
+        <option value="$PROJECT_DIR$/order-server/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/product-client/src/main/java/com/ngu/product/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/product-client/src/main/java/com/ngu/product/service/ProductFeign.java" />
+        <option value="$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/OrderServerMain8201.java" />
+        <option value="$PROJECT_DIR$/api-commons/pom.xml" />
+        <option value="$PROJECT_DIR$/product-client/pom.xml" />
+        <option value="$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/product-server/src/main/java/com/ngu/product/server/impl/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/product-server/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/message/ProductInfoRecevice.java" />
       </list>
     </option>
   </component>
@@ -167,15 +200,28 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="product-client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="product-client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="130" />
     <option name="y" value="20" />
     <option name="width" value="1230" />
     <option name="height" value="690" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -194,60 +240,25 @@
             <path>
               <item name="cloud-product" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloudproduct" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="order-server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud-product" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloudproduct" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="order-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud-product" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloudproduct" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-product" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloudproduct" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-product" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloudproduct" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-product" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloudproduct" type="462c0819:PsiDirectoryNode" />
-              <item name="product-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-product" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloudproduct" type="462c0819:PsiDirectoryNode" />
-              <item name="product-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-product" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloudproduct" type="462c0819:PsiDirectoryNode" />
-              <item name="product-server" type="462c0819:PsiDirectoryNode" />
+              <item name="order-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud-product" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloudproduct" type="462c0819:PsiDirectoryNode" />
-              <item name="product-server" type="462c0819:PsiDirectoryNode" />
+              <item name="order-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -255,7 +266,7 @@
             <path>
               <item name="cloud-product" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloudproduct" type="462c0819:PsiDirectoryNode" />
-              <item name="product-server" type="462c0819:PsiDirectoryNode" />
+              <item name="order-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -263,12 +274,13 @@
             </path>
             <path>
               <item name="cloud-product" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-product" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-config-center-3344" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudproduct" type="462c0819:PsiDirectoryNode" />
+              <item name="order-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="message" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -283,11 +295,11 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1601262803167" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1601369456350" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../springcloud2020/cloud2020" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../rabbitmq-springboot" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -325,9 +337,10 @@
         </RuleState>
       </list>
     </option>
+    <option name="contentProportion" value="0.19125684" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigMain">
-    <configuration name="OrderControllerTest.decreaseStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MqTest.streamTest">
+    <configuration name="MqTest.streamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="order-server" />
       <extension name="coverage">
         <pattern>
@@ -336,24 +349,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.ngu.product.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.ngu.product.controller.OrderControllerTest" />
-      <option name="METHOD_NAME" value="decreaseStock" />
+      <option name="MAIN_CLASS_NAME" value="com.ngu.product.controller.MqTest" />
+      <option name="METHOD_NAME" value="streamTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductServiceTest.decreaseStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="product-server" />
+    <configuration name="MqTest.work" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="order-server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ngu.product.server.*" />
+          <option name="PATTERN" value="com.ngu.product.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ngu.product.server" />
-      <option name="MAIN_CLASS_NAME" value="com.ngu.product.server.ProductServiceTest" />
-      <option name="METHOD_NAME" value="decreaseStock" />
+      <option name="PACKAGE_NAME" value="com.ngu.product.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.ngu.product.controller.MqTest" />
+      <option name="METHOD_NAME" value="work" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -587,6 +600,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RabbitmqSpringbootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rabbitmq-springboot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.rabbitmqspringboot.RabbitmqSpringbootApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SeataAccountMainApp2003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="seata-account-service2003" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ngu.springcloud.SeataAccountMainApp2003" />
@@ -631,11 +651,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ConfigMain" />
         <item itemvalue="Spring Boot.OrderServerMain8201" />
         <item itemvalue="Spring Boot.ProductServerMain8101" />
-        <item itemvalue="JUnit.OrderControllerTest.decreaseStock" />
-        <item itemvalue="JUnit.ProductServiceTest.decreaseStock" />
+        <item itemvalue="Spring Boot.ConfigMain" />
+        <item itemvalue="JUnit.MqTest.streamTest" />
+        <item itemvalue="JUnit.MqTest.work" />
       </list>
     </recent_temporary>
   </component>
@@ -650,26 +670,11 @@
       <option name="presentableId" value="Default" />
       <updated>1601116974867</updated>
       <workItem from="1601116980988" duration="38518000" />
-      <workItem from="1601262186401" duration="863000" />
+      <workItem from="1601262186401" duration="24796000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ProductDaoTest_findByProductStatus - 2020.09.26 at 20h 30m 23s.xml">
-      <configuration name="ProductDaoTest.findByProductStatus" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductServiceTest_findProductByIds - 2020.09.27 at 20h 19m 23s.xml">
-      <configuration name="ProductServiceTest.findProductByIds" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductServiceTest_findProductByIds - 2020.09.27 at 20h 19m 59s.xml">
-      <configuration name="ProductServiceTest.findProductByIds" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductServiceTest_findProductByIds - 2020.09.27 at 20h 26m 45s.xml">
-      <configuration name="ProductServiceTest.findProductByIds" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductServiceTest_findProductByIds - 2020.09.27 at 20h 28m 03s.xml">
-      <configuration name="ProductServiceTest.findProductByIds" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ProductServiceTest_decreaseStock - 2020.09.27 at 23h 40m 56s.xml">
       <configuration name="ProductServiceTest.decreaseStock" configurationId="JUnit" />
     </history-entry>
@@ -685,9 +690,24 @@
     <history-entry file="OrderControllerTest_decreaseStock - 2020.09.27 at 23h 52m 35s.xml">
       <configuration name="OrderControllerTest.decreaseStock" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MqTest_work - 2020.09.28 at 16h 45m 57s.xml">
+      <configuration name="MqTest.work" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MqTest_work - 2020.09.28 at 16h 48m 17s.xml">
+      <configuration name="MqTest.work" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MqTest_work - 2020.09.28 at 16h 51m 05s.xml">
+      <configuration name="MqTest.work" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MqTest_streamTest - 2020.09.28 at 17h 45m 58s.xml">
+      <configuration name="MqTest.streamTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MqTest_streamTest - 2020.09.28 at 17h 52m 18s.xml">
+      <configuration name="MqTest.streamTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39381000" />
+    <option name="totallyTimeSpent" value="63314000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -710,8 +730,8 @@
       <window_info anchor="bottom" id="Database Changes" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Message" order="8" />
-      <window_info anchor="bottom" id="Find" order="9" visible="true" weight="0.32941177" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.32941177" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.24705882" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.48235294" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -723,7 +743,7 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="right" id="Bean Validation" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.25536194" />
+      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.14745308" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
@@ -747,223 +767,178 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../springcloud2020/cloud2020/cloud-consumer-feign-order80/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="23" selection-start-line="23" selection-end-line="27" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../springcloud2020/cloud2020/cloud-consumer-feign-order80/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product-client/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../springcloud2020/cloud2020/cloud-consumer-feign-order80/src/main/java/com/ngu/springcloud/config/FeignConfig.java">
+    <entry file="file://$PROJECT_DIR$/../../springcloud2020/cloud2020/cloud-config-center-3344/src/main/java/com/ngu/springcloud/ConfigCenterMain3344.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../springcloud2020/cloud2020/cloud-consumer-feign-order80/src/main/java/com/ngu/springcloud/service/PaymentFeignService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="47" selection-start-line="47" selection-end-line="51" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product-server/src/test/java/com/ngu/product/server/impl/CategoryServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product-server/src/test/java/com/ngu/product/server/impl/ProductServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-          <folding>
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/ngu/product/exception/ProductException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/ngu/product/dao/ProductDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/ngu/product/enums/ProductExceptionEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order-server/pom.xml">
+    <entry file="file://$PROJECT_DIR$/config-server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
-          <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+    <entry file="file://$PROJECT_DIR$/../../springcloud2020/cloud2020/cloud-config-center-3344/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="78">
+          <caret line="15" selection-start-line="15" selection-end-line="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.2.2.RELEASE/spring-test-5.2.2.RELEASE.jar!/org/springframework/test/context/junit4/statements/RunAfterTestExecutionCallbacks.class">
+    <entry file="file://$PROJECT_DIR$/../../rabbitmq-springboot/src/main/java/com/example/rabbitmqspringboot/work/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.2.2.RELEASE/spring-test-5.2.2.RELEASE.jar!/org/springframework/test/context/junit4/SpringJUnit4ClassRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="126" selection-start-line="126" selection-end-line="126" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-          <folding>
-            <element signature="e#2922#2923#0" expanded="true" />
-            <element signature="e#11040#11204#0" expanded="true" />
-            <element signature="e#11203#11204#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.2.2.RELEASE/spring-test-5.2.2.RELEASE.jar!/org/springframework/test/context/junit4/statements/RunAfterTestMethodCallbacks.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.2.2.RELEASE/spring-test-5.2.2.RELEASE-sources.jar!/org/springframework/test/context/junit4/SpringJUnit4ClassRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="237" column="19" selection-start-line="237" selection-start-column="19" selection-end-line="237" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.2.2.RELEASE/spring-test-5.2.2.RELEASE-sources.jar!/org/springframework/test/context/junit4/statements/RunAfterTestMethodCallbacks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="81" column="16" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.2.2.RELEASE/spring-test-5.2.2.RELEASE-sources.jar!/org/springframework/test/context/junit4/statements/RunAfterTestExecutionCallbacks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="79" column="16" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.2.2.RELEASE/spring-aop-5.2.2.RELEASE-sources.jar!/org/springframework/aop/framework/CglibAopProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="661" selection-start-line="661" selection-end-line="661" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product-server/src/test/java/com/ngu/product/server/ProductServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="56">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/order-server/src/test/java/com/ngu/product/controller/OrderControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+        <state relative-caret-position="156">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product-client/src/main/java/com/ngu/product/ProductClientMain8111.java">
+    <entry file="file://$PROJECT_DIR$/../../rabbitmq-springboot/src/main/java/com/example/rabbitmqspringboot/topic/topicCustomer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="-48">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../rabbitmq-springboot/src/main/java/com/example/rabbitmqspringboot/fanout/FanoutCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../rabbitmq-springboot/src/main/java/com/example/rabbitmqspringboot/workqueue/WorkQueueCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../rabbitmq-springboot/src/main/java/com/example/rabbitmqspringboot/routing/RouteCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../springcloud2020/cloud2020/cloud-stream-rabbitmq-consumer8802/src/main/java/com/ngu/springcloud/StreamMQMain8802.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../springcloud2020/cloud2020/cloud-stream-rabbitmq-consumer8803/src/main/java/com/ngu/springcloud/controller/ReceiveMessageListenerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../springcloud2020/cloud2020/cloud-stream-rabbitmq-consumer8803/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-468" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../springcloud2020/cloud2020/cloud-stream-rabbitmq-provider8801/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-390" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../springcloud2020/cloud2020/cloud-stream-rabbitmq-provider8801/src/main/java/com/ngu/springcloud/service/impl/MessageProviderImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../springcloud2020/cloud2020/cloud-stream-rabbitmq-provider8801/src/main/java/com/ngu/springcloud/controller/SendMessageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../springcloud2020/cloud2020/cloud-stream-rabbitmq-consumer8802/src/main/java/com/ngu/springcloud/controller/ReceiveMessageListenerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/message/StreamReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../springcloud2020/cloud2020/cloud-stream-rabbitmq-consumer8802/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-390" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/test/java/com/ngu/product/controller/MqTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
+            <element signature="e#949#950#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" selection-start-line="5" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../rabbitmq-springboot/src/test/java/com/example/rabbitmqspringboot/RabbitmqSpringbootApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/ngu/product/domain/ProductInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="40" column="28" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="40" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-commons/src/main/java/com/ngu/product/entities/ProductInfoOutPut.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -973,123 +948,14 @@
     <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/ngu/product/dto/CartDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/ngu/product/server/impl/ProductServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-520">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/OrderServerMain8201.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../springcloud2020/cloud2020/cloud-consumer-feign-order80/src/main/java/com/ngu/springcloud/OrderFeignMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/controller/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="70" column="31" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/ngu/product/domain/ProductInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/entities/OrderDetail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="200" column="57" lean-forward="true" selection-start-line="200" selection-start-column="57" selection-end-line="200" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/client/ProductClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="11" selection-start-line="11" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/ngu/product/server/ProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product-client/src/main/java/com/ngu/product/controller/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product-client/src/main/java/com/ngu/product/service/ProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/service/impl/OrderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="37" column="10" lean-forward="true" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="13" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/ngu/product/controller/ProductController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="73" column="27" lean-forward="true" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
+        <state relative-caret-position="156">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;method#list#0;class#ProductController#0" />
@@ -1097,58 +963,191 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/ngu/product/server/impl/CategoryServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/api-commons/src/main/java/com/ngu/product/entities/CartDTOOutPut.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="156">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/message/MqReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../springcloud2020/cloud2020/cloud-config-center-3344/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/product-server/src/test/java/com/ngu/product/server/ProductServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="36" column="52" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/ngu/product/ProductServerMain8101.java">
+    <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/ngu/product/server/CategoryService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="72" />
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product-server/pom.xml">
+    <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/ngu/product/server/ProductService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="15" selection-start-line="15" selection-end-line="18" selection-end-column="21" />
+        <state relative-caret-position="182">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/2.2.1.RELEASE/spring-cloud-starter-netflix-eureka-client-2.2.1.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/pom.xml">
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/converter/OrderFormToOrderDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+        <state relative-caret-position="108">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/message/StreamClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        <state relative-caret-position="208">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/utils/KeyUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config-server/src/main/java/com/ngu/product/ConfigMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="108">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1560">
+          <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-client/src/main/java/com/ngu/product/ProductClientMain8111.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-client/src/main/java/com/ngu/product/feignClient/ProductFeign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-client/src/main/java/com/ngu/product/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1248" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-commons/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-943">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-client/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-156" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/OrderServerMain8201.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="5" column="62" lean-forward="true" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/service/impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-602">
+          <caret line="12" column="47" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-104">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-server/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-server/src/main/java/com/ngu/product/server/impl/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/ngu/product/message/ProductInfoRecevice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -2,15 +2,15 @@ package com.ngu.product.service.impl;
 
 import com.ngu.product.dao.OrderDetailDao;
 import com.ngu.product.dao.OrderMasterDao;
-import com.ngu.product.domain.ProductInfo;
-import com.ngu.product.dto.CartDTO;
 import com.ngu.product.dto.OrderDTO;
+import com.ngu.product.entities.CartDTOOutPut;
 import com.ngu.product.entities.OrderDetail;
 import com.ngu.product.entities.OrderMaster;
+import com.ngu.product.entities.ProductInfoOutPut;
 import com.ngu.product.enums.OrderStatusEnum;
 import com.ngu.product.enums.PayStatusEnum;
-import com.ngu.product.server.ProductService;
 import com.ngu.product.service.OrderService;
+import com.ngu.product.feignClient.ProductFeign;
 import com.ngu.product.utils.KeyUtil;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
@@ -31,7 +31,7 @@ public class OrderServiceImpl implements OrderService {
     private OrderDetailDao orderDetailDao;
 
     @Resource
-    private ProductService productService;
+    private ProductFeign productFeign;
 
     /**
      * 创建订单
@@ -50,13 +50,13 @@ public class OrderServiceImpl implements OrderService {
         List<String> productIdList = orderDTO.getOrderDetailList().stream()
                 .map(OrderDetail::getProductId)
                 .collect(Collectors.toList());
-        List<ProductInfo> productInfoList = productService.findByProductIdIn(productIdList);
+        List<ProductInfoOutPut> productInfoList = productFeign.findByProductIdIn(productIdList);
         // 3.计算总价
         List<OrderDetail> orderDetailList = orderDTO.getOrderDetailList();
         BigDecimal amount = new BigDecimal(BigInteger.ZERO);
 
         for (OrderDetail orderDetail : orderDetailList) {
-            for (ProductInfo productInfo : productInfoList) {
+            for (ProductInfoOutPut productInfo : productInfoList) {
                 if (orderDetail.getProductId().equals(productInfo.getProductId())) {
                     amount = productInfo.getProductPrice()
                             .multiply(new BigDecimal(orderDetail.getProductQuantity()) )
@@ -72,12 +72,12 @@ public class OrderServiceImpl implements OrderService {
         }
 
         // 4.口库存
-        List<CartDTO> cartDTOList = orderDTO.getOrderDetailList().stream()
+        List<CartDTOOutPut> cartDTOList = orderDTO.getOrderDetailList().stream()
                 .map(x -> {
-                   return new CartDTO(x.getProductId(), x.getProductQuantity());
+                   return new CartDTOOutPut(x.getProductId(), x.getProductQuantity());
                 })
                 .collect(Collectors.toList());
-        productService.decreaseStock(cartDTOList);
+        productFeign.decreaseStock(cartDTOList);
 
         // 5.订单入库
         OrderMaster orderMaster = new OrderMaster();

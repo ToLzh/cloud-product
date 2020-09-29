@@ -3,8 +3,29 @@ server:
 spring:
   application:
     name: config
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ToLzh/cloud-product.git
+          search-paths:
+            # 如果有下级目录的话，那么这个就是文件夹；若没有下级目录，这个和仓库同名
+            - config-repo
+      # 分支
+      label: master
 
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

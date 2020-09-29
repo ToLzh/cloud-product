@@ -1,15 +1,15 @@
 package com.ngu.product.controller;
 
 import com.ngu.product.VO.ResultVO;
-import com.ngu.product.client.ProductClient;
 import com.ngu.product.converter.OrderFormToOrderDTO;
-import com.ngu.product.dto.CartDTO;
 import com.ngu.product.dto.OrderDTO;
 import com.ngu.product.enums.OrderExceptionEnum;
 import com.ngu.product.exception.OrderException;
 import com.ngu.product.form.OrderForm;
 import com.ngu.product.service.OrderService;
+import com.ngu.product.utils.ResultVOUtil;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.util.CollectionUtils;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -19,20 +19,17 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 import javax.validation.Valid;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
 @RestController
 @RequestMapping("/order")
 @Slf4j
+@RefreshScope   //刷新 git上 config的最新配置信息
 public class OrderController {
 
     @Resource
     private OrderService orderService;
-
-    @Resource
-    private ProductClient productClient;
 
     /**
      * 创建订单
@@ -63,9 +60,5 @@ public class OrderController {
         return ResultVOUtil.success(map);
     }
 
-    @GetMapping("/decreaseStock")
-    public void decreaseStock(){
-        CartDTO cartDTO = new CartDTO("164103465734242707", 2);
-        productClient.decreaseStock(Arrays.asList(cartDTO));
-    }
+
 }

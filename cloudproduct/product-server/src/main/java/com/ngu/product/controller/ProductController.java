@@ -3,6 +3,8 @@ package com.ngu.product.controller;
 import com.ngu.product.VO.ResultVO;
 import com.ngu.product.domain.*;
 import com.ngu.product.dto.CartDTO;
+import com.ngu.product.entities.CartDTOOutPut;
+import com.ngu.product.entities.ProductInfoOutPut;
 import com.ngu.product.server.CategoryService;
 import com.ngu.product.server.ProductService;
 import com.ngu.product.utils.ResultVOUtil;
@@ -58,11 +60,6 @@ public class ProductController {
                     ProductInfoVO productInfoVO = new ProductInfoVO();
                     // 内容拷贝，属性名一样
                     BeanUtils.copyProperties(p,productInfoVO);
-    //                productInfoVO.setProductDescription(p.getProductDescription());
-    //                productInfoVO.setProductIcon(p.getProductIcon());
-    //                productInfoVO.setProductId(p.getProductId());
-    //                productInfoVO.setProductName(p.getProductName());
-    //                productInfoVO.setProductPrice(p.getProductPrice());
                     productInfoVOList.add(productInfoVO);
                 }
             });
@@ -75,12 +72,12 @@ public class ProductController {
     }
 
     @PostMapping("/listForOrder")
-    public List<ProductInfo> listForOrder(@RequestBody List<String> productIdList) {
+    public List<ProductInfoOutPut> listForOrder(@RequestBody List<String> productIdList) {
         return productService.findByProductIdIn(productIdList);
     }
 
     @PostMapping("/decreaseStock")
-    public void decreaseStock(@RequestBody List<CartDTO> cartDTOList) {
+    public void decreaseStock(@RequestBody List<CartDTOOutPut> cartDTOList) {
         log.info("*******进入 decreaseStock  ***********");
         productService.decreaseStock(cartDTOList);
         log.info("*******结束 decreaseStock  ***********");

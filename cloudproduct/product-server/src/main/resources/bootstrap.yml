@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    config:
+      #集群
+      discovery:
+        enabled: true
+        service-id: CONFIG
+      name: productservice
+      profile: dev
+      label: master
+

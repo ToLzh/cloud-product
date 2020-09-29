@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    config:
+      #集群
+      discovery:
+        enabled: true
+        service-id: CONFIG
+      name: orderservice
+      profile: dev
+      label: master
+    stream:
+      bindings:
+        myMessage:   # 分组 以 myMessage 这个队列 分给 order  显示 myMessage.order
+          group: order
+          content-type: application/json  # 为了在rabbitmq中看到对象的信息
