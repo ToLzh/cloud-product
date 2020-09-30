@@ -9,11 +9,11 @@ spring:
     url: jdbc:mysql://localhost:3306/cloud_sell?useUnicode=true&characterEncoding=utf-8&useSSL=false
   jpa:
     show-sql: true
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: guest
+  redis:
+    host: 120.79.84.68
+    port: 6379
+    password: 123456789
+    
 eureka:
   client:
     service-url:
