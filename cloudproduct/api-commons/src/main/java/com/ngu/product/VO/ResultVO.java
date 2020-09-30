@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 public class ResultVO<T> {
+    private String state;
     private Integer code;
     private String msg;
     private T data;
