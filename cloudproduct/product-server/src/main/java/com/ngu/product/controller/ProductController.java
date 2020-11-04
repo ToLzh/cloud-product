@@ -1,5 +1,8 @@
 package com.ngu.product.controller;
 
+import com.netflix.hystrix.contrib.javanica.annotation.DefaultProperties;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
 import com.ngu.product.VO.ResultVO;
 import com.ngu.product.domain.*;
 import com.ngu.product.dto.CartDTO;
@@ -20,6 +23,7 @@ import java.util.stream.Collectors;
 @RestController
 @RequestMapping("/product")
 @Slf4j
+//@DefaultProperties(defaultFallback = "defaultFallback")
 public class ProductController {
 
     @Resource
@@ -34,6 +38,10 @@ public class ProductController {
      * 3. 查询类目
      * 4. 构造数据
      */
+//    @HystrixCommand(commandProperties = {
+//        @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds", value = "3000")
+//	})
+//    @HystrixCommand()
     @GetMapping("/list")
     public ResultVO<ProductVO> list(){
         // 查询所有在架商品
@@ -81,6 +89,14 @@ public class ProductController {
         log.info("*******进入 decreaseStock  ***********");
         productService.decreaseStock(cartDTOList);
         log.info("*******结束 decreaseStock  ***********");
+    }
+
+    private String fallback() {
+        return "太拥挤了, 请稍后再试~~";
+    }
+
+    private String defaultFallback() {
+        return "默认提示：太拥挤了, 请稍后再试~~";
     }
 }
 

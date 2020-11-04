@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../../rabbitmq" />
     <file type="web" url="file://$PROJECT_DIR$/../../rabbitmq-springboot" />
   </component>
   <component name="MavenProjectsManager">
@@ -10,6 +11,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../../springcloud2020/cloud2020/pom.xml" />
         <option value="$PROJECT_DIR$/../../rabbitmq-springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/../../s2gciy/miaosha_7/pom.xml" />
+        <option value="$PROJECT_DIR$/../../rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/../../mytest/pom.xml" />
+        <option value="$USER_HOME$/Desktop/wechatPay/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -39,13 +39,17 @@
         <module name="cloudalibaba-sentinel-service8401" />
         <module name="config-server" />
         <module name="eureka-server" />
+        <module name="miaosha" />
+        <module name="mytest" />
         <module name="order-server" />
         <module name="product-client" />
         <module name="product-server" />
+        <module name="rabbitmq" />
         <module name="rabbitmq-springboot" />
         <module name="seata-account-service2003" />
         <module name="seata-order-service2001" />
         <module name="seata-storage-service2002" />
+        <module name="testProject" />
         <module name="user-server" />
       </profile>
     </annotationProcessing>
@@ -55,6 +59,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="rabbitmq" options="-parameters" />
       <module name="rabbitmq-springboot" options="-parameters" />
     </option>
   </component>

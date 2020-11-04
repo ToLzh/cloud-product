@@ -9,3 +9,10 @@ spring:
       profile: dev
       label: master
 
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 2000
